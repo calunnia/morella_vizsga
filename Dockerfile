@@ -1,4 +1,2 @@
-from nginx:latest
-copy  . /usr/share/nginx
-
-expose 80
+FROM nginx
+COPY . /usr/share/nginx/html
